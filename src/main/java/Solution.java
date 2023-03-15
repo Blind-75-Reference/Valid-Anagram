@@ -2,7 +2,7 @@ import java.util.Arrays;
 
 class Solution {
     /*
-    Sorting
+    Sort First
 
     With this solution we get a character array for each string and sort them. Once sorted, if the strings are anagrams,
     they should be the same and we simply compare them. If they aren't the same, they weren't anagrams.
