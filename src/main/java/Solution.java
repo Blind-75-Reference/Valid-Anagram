@@ -1,5 +1,7 @@
 class Solution {
     /*
+    Brute Force
+
     In this solution we iterate through s checking if t contains each character. If so, we remove the first instance
     of that character from t. If we ever find a character that is not present in t, we return false.
 
