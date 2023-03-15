@@ -7,7 +7,7 @@ Given two strings s and t, return true if t is an anagram of s, and false otherw
 <details>
   <summary>Hint #1</summary>
   
-  Brute force - Consider each character in one string, and search the other string for that character. You will also need to remove checked characters from the searched string.
+  Brute Force Solution - Consider each character in one string, and search the other string for that character. You will also need to remove checked characters from the searched string.
   
 </details>
 
@@ -28,6 +28,7 @@ Given two strings s and t, return true if t is an anagram of s, and false otherw
 <details>
   <summary>Hint #4</summary>
   
-  Optimize - Consider the [Hashtable](https://docs.oracle.com/javase/8/docs/api/java/util/HashMap.html) and [HashMap](https://docs.oracle.com/javase/8/docs/api/java/util/Hashtable.html) structures.
+  Optimize - All we really need to consider is if both strings have the exact same frequency for every letter in the alphabet.
   
 </details>
+
