@@ -1,6 +1,27 @@
+import java.util.Arrays;
+
 class Solution {
+    /*
+    Sorting solution
+     */
     public boolean isAnagram(String s, String t) {
-        //write your solution here...
-        return false;
+        if(s.length() != t.length()) {
+            return false;
+        }
+
+        char[] sArray = s.toCharArray();
+        char[] tArray = t.toCharArray();
+
+        Arrays.sort(sArray);
+        Arrays.sort(tArray);
+
+        for(int i = 0; i < sArray.length; i++) {
+            if(sArray[i] != tArray[i]) {
+                return false;
+            }
+        }
+
+
+        return true;
     }
 }
